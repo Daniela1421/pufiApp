@@ -1,0 +1,75 @@
+.footer_container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5em;
+    padding: 3em 3em 1em 3em;
+    border-top: 3px outset;
+   
+    .info{
+        line-height: 2em;
+        border-right: 1px solid grey; 
+        padding-left: 1.5em;
+    }
+
+    .principalInformation{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        padding-bottom: 2em;
+        border-bottom: 1px outset;
+
+    }
+
+    .socialMedia{
+        display: flex; 
+        align-items: flex-start;
+        justify-content: space-between;
+        padding-left: 1.5em;
+
+        img{
+            width: 1em;
+            height: 1em;
+        }
+    }
+
+    .securePurchase{
+        width: 15em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        border-right: 1px solid grey;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+
+        div{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1em;
+
+            p{
+                font-size: 0.8em;
+            }
+        }
+
+        img{
+            width: 2em;
+            height: 2em;
+        }
+    }
+
+    .copyright{
+       padding-top: 2em;
+       display: flex;
+       justify-content: space-between;
+
+       p{
+        color: grey;
+       }
+
+       img{
+        width: 5em;
+        height: 2em;
+       }
+    }
+}

@@ -1,0 +1,29 @@
+.hashtag_container{
+    margin: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p{
+        font-size: 2.5em;
+    }
+
+    .hashtagName{
+        
+        color: gray;
+        font-size: 1em;
+    }
+
+    .hashtagImages{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 36.5em;
+        height: 24.5em;
+        margin-top: 3em;
+
+        img{
+            width: 12em;
+            height: 12em;
+        }
+    }
+}

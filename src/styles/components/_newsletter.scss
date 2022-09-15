@@ -1,0 +1,41 @@
+.newsletter_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 8em;
+    text-align: center;
+
+    .name1{
+        color: grey;
+        font-size: 0.8em;
+    }
+
+    .name2{
+        font-size: 1.8em;
+    }
+
+    .name3{
+        font-size: 0.8em;
+    }
+
+    .inpt-newsletter{
+        width: 43.5em;
+        height: 2.8em;
+        padding-left: 1em;
+        margin-top: 1.5em;
+    }
+
+    .btn-newsletter{
+        border: none;
+        background: none;
+        position: absolute;
+        padding-top: 2.4em;
+        right: 36.3em;
+        
+        img{
+            width: 1em;
+            height: 1em;
+        }
+    }
+}

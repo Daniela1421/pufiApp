@@ -1,0 +1,48 @@
+.products_container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   
+    .image{
+        img{
+            width: 100%;
+            height: 100%;
+            filter: brightness(50%)
+        }
+
+        button{
+            position: absolute;
+            bottom: 1em;
+            left: 23%;
+            border: 1px solid $main;
+            background: transparent;
+            color: $main;
+            padding: 0.5em 1.5em 0.5em 1.5em;
+        }
+    }
+
+    .information{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        img{
+            width: 4em;
+            height: 4em;
+        }
+
+        h2{
+            padding-top: 1em;
+        }
+
+        p{
+            text-align: center;
+            padding-top: 1em;
+        }
+
+        h3{
+            padding-top: 2.5em;
+        }
+    }
+   
+}
