@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-$main: white; 
+$main: rgba(255, 255, 255, 0.842); 
 $secondary: black; 
 
 // Components 
@@ -13,3 +13,5 @@ $secondary: black;
 @import './components/footer';
 @import './components/hashtag';
 @import './components/newsletter';
+@import './components/landingPage'; 
+@import "~bootstrap/dist/css/bootstrap.css";

@@ -1,4 +1,3 @@
-import Navbar from "./components/Navbar";
 import Products from "./components/Products";
 import ProductDesingTwo from "./components/ProductDesingTwo";
 import rain from "./images/rain.jpg";
@@ -12,11 +11,12 @@ import IconPuff from "./images/iconPuff.jpg";
 import Footer from "./components/Footer";
 import Hashtag from "./components/Hashtag";
 import Newsletter from "./components/Newsletter";
+import LandingPage from "./components/LandingPage";
 
 function App() {
   return (
       <div>
-        <Navbar/>
+        <LandingPage/>
         <Products image={rain} icon={pUmbrella} name={"Pufi RAIN"}/>
         <ProductDesingTwo image={puff} icon={IconPuff} name={"Pufi PUFF"}/>
         <Products image={cart} icon={iconCart} name={"Pufi CART"}/>
